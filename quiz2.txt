@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    std::cout << "나이를 입력하세요.";
+    cin >> a;
+    if (a < 8) {
+        std::cout << "유아";
+    }
+    else if (7 < a && a < 14) {
+        std::cout << "초등학생";
+    }
+    else if (13 < a && a < 17) {
+        std::cout << "중학생";
+    }
+    else if (16 < a && a < 20) {
+        std::cout << "고등학생";
+    }
+    else if (19 < a && a < 200) {
+        std::cout << "성인";
+    }
+    else if (a >= 200) {
+        std::cout << "나이가 너무 많습니다!";
+    }
+    else {
+        std::cout << "오류";
+    }
+
+}
