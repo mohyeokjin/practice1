@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    std::string str1;
+    cout<<"이름을 입력하세요.\n";
+    cin >> str1;
+    int str2;
+    cout<<"나이를 입력하세요.\n";
+    cin >> str2;
+    cout<<"안녕하세요! " << str1 << "님(" << str2 << "세)";
+
+    return 0;
+}
